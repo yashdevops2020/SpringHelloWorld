@@ -11,6 +11,14 @@
 	<properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
 	</properties>
+	<distributionManagement>
+ 		<repository>
+			<id>internal.repo</id>
+			<name>Internal repo</name>
+			<url>file:deploy</url>
+		</repository>
+	</distributionManagement>
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
